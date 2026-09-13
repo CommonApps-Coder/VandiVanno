@@ -1,0 +1,175 @@
+{
+  "stops": [
+    {
+      "id": 1,
+      "name": "Thuruthippuram"
+    },
+    {
+      "id": 2,
+      "name": "Puthanvelikkara"
+    },
+    {
+      "id": 3,
+      "name": "Aluva"
+    },
+    {
+      "id": 4,
+      "name": "Chalakkudy"
+    },
+    {
+      "id": 5,
+      "name": "Paravur"
+    },
+    {
+      "id": 6,
+      "name": "Kodungallur"
+    }
+  ],
+  "routes": [
+    {
+      "id": "route_001",
+      "busName": "KSRTC 1",
+      "from": "Thuruthippuram",
+      "to": "Aluva",
+      "startTime": "07:15",
+      "endTime": "9:00",
+      "busType": "KSRTC",
+      "speciality": "Priyadarshini",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 1,
+          "arrivalTime": "07:15",
+          "departureTime": "07:15"
+        },
+        {
+          "id": 2,
+          "stopID": 2,
+          "arrivalTime": "07:25",
+          "departureTime": "07:25"
+        },
+        {
+          "id": 3,
+          "stopID": 3,
+          "arrivalTime": "09:00",
+          "departureTime": "09:00"
+        }
+      ]
+    },
+    {
+      "id": "route_002",
+      "busName": "St. John",
+      "from": "Thuruthippuram",
+      "to": "Chalakkudy",
+      "startTime": "04:15",
+      "endTime": "05:30",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 1,
+          "arrivalTime": "04:15",
+          "departureTime": "04:15"
+        },
+        {
+          "id": 2,
+          "stopID": 2,
+          "arrivalTime": "04:45",
+          "departureTime": "04:45"
+        },
+        {
+          "id": 3,
+          "stopID": 4,
+          "arrivalTime": "05:30",
+          "departureTime": "05:30"
+        }
+      ]
+    },
+    {
+      "id": "route_003",
+      "busName": "KSRTC Gramavandi",
+      "from": "Thuruthippuram",
+      "to": "Paravur",
+      "startTime": "09:00",
+      "endTime": "09:45",
+      "busType": "Gramavandi",
+      "speciality": "Priyadarshini",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 1,
+          "arrivalTime": "09:00",
+          "departureTime": "09:03"
+        },
+        {
+          "id": 2,
+          "stopID": 2,
+          "arrivalTime": "09:10",
+          "departureTime": "09:10"
+        },
+        {
+          "id": 3,
+          "stopID": 5,
+          "arrivalTime": "09:45",
+          "departureTime": "09:45"
+        }  
+      ]
+    },
+    {
+      "id": "route_004",
+      "busName": "Valiyaparambil",
+      "from": "Thuruthippuram",
+      "to": "Kodungallur",
+      "startTime": "07:00",
+      "endTime": "07:30",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 1,
+          "arrivalTime": "07:00",
+          "departureTime": "07:00"
+        },
+        {
+          "id": 2,
+          "stopID": 6,
+          "arrivalTime": "07:30",
+          "departureTime": "07:30"
+        }
+      ]
+    },
+    {
+      "id": "route_005",
+      "busName": "Jesus",
+      "from": "Thuruthippuram",
+      "to": "Chalakkudy",
+      "startTime": "06:30",
+      "endTime": "07:45",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 1,
+          "arrivalTime": "06:30",
+          "departureTime": "06:30"
+        },
+        {
+          "id": 2,
+          "stopID": 2,
+          "arrivalTime": "06:45",
+          "departureTime": "06:45"
+        },
+        {
+          "id": 3,
+          "stopID": 4,
+          "arrivalTime": "07:45",
+          "departureTime": "07:45"
+        }
+      ]
+    }
+    
+  ]
+}
