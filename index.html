@@ -7,19 +7,25 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body {
+            margin: 0;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
         .stop-item {
             border-left: 4px solid #3b82f6;
             padding-left: 1rem;
         }
+        .banner-shell {
+            width: 100vw;
+            margin-left: calc(50% - 50vw);
+            margin-right: calc(50% - 50vw);
+        }
     </style>
 </head>
 <body class="bg-gray-50">
     <div class="min-h-screen flex flex-col">
         <!-- Header -->
-        <header class="shadow-lg overflow-hidden bg-white">
-            <img src="Images/Banner.png?v=20260912" alt="Bus Timing App banner" class="block w-full h-auto" />
+        <header class="banner-shell shadow-lg overflow-hidden bg-white py-0">
+            <img src="Images/Banner1.png" alt="Bus Timing App banner" class="block w-full h-[180px] md:h-[200px] object-contain" />
         </header>
 
         <!-- Main Content -->

@@ -23,153 +23,1566 @@
     {
       "id": 6,
       "name": "Kodungallur"
+    },
+    {
+      "id": 7,
+      "name": "Guruvayoor"
+    },
+    {
+      "id": 8,
+      "name": "Thiruvananthapuram"
+    },
+    {
+      "id": 9,
+      "name": "Mala"
     }
+
+
   ],
   "routes": [
     {
-      "id": "route_001",
-      "busName": "KSRTC 1",
+      "id": "tpmkdr_001",
+      "busName": "Private 1",
+      "from": "Thuruthippuram",
+      "to": "Kodungallur",
+      "startTime": "07:15AM",
+      "endTime": "07:30AM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 1,
+          "arrivalTime": "07:15AM",
+          "departureTime": "07:15AM"
+        },
+        {
+          "id": 2,
+          "stopID": 6,
+          "arrivalTime": "07:30AM",
+          "departureTime": "07:30AM"
+        }
+      ]
+    },
+    {
+      "id": "tpmkdr_002",
+      "busName": "Private 1",
+      "from": "Thuruthippuram",
+      "to": "Kodungallur",
+      "startTime": "07:35AM",
+      "endTime": "07:50AM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 1,
+          "arrivalTime": "07:35AM",
+          "departureTime": "07:35AM"
+        },
+        {
+          "id": 2,
+          "stopID": 6,
+          "arrivalTime": "07:50AM",
+          "departureTime": "07:50AM"
+        }
+      ]
+    },
+    {
+      "id": "tpmkdr_003",
+      "busName": "Private 1",
+      "from": "Thuruthippuram",
+      "to": "Kodungallur",
+      "startTime": "08:00AM",
+      "endTime": "08:15AM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 1,
+          "arrivalTime": "08:00AM",
+          "departureTime": "08:00AM"
+        },
+        {
+          "id": 2,
+          "stopID": 6,
+          "arrivalTime": "08:15AM",
+          "departureTime": "08:15AM"
+        }
+      ]
+    },
+    {
+      "id": "tpmkdr_004",
+      "busName": "Private 1",
+      "from": "Thuruthippuram",
+      "to": "Kodungallur",
+      "startTime": "08:40AM",
+      "endTime": "08:55AM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 1,
+          "arrivalTime": "08:40AM",
+          "departureTime": "08:40AM"
+        },
+        {
+          "id": 2,
+          "stopID": 6,
+          "arrivalTime": "08:55AM",
+          "departureTime": "08:55AM"
+        }
+      ]
+    },
+    {
+      "id": "tpmkdr_005",
+      "busName": "Private 1",
+      "from": "Thuruthippuram",
+      "to": "Kodungallur",
+      "startTime": "09:30AM",
+      "endTime": "09:45AM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 1,
+          "arrivalTime": "09:30AM",
+          "departureTime": "09:30AM"
+        },
+        {
+          "id": 2,
+          "stopID": 6,
+          "arrivalTime": "09:45AM",
+          "departureTime": "09:45AM"
+        }
+      ]
+    },
+    {
+      "id": "tpmkdr_006",
+      "busName": "Private 1",
+      "from": "Thuruthippuram",
+      "to": "Kodungallur",
+      "startTime": "09:50AM",
+      "endTime": "10:05AM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 1,
+          "arrivalTime": "09:50AM",
+          "departureTime": "09:50AM"
+        },
+        {
+          "id": 2,
+          "stopID": 6,
+          "arrivalTime": "10:05AM",
+          "departureTime": "10:05AM"
+        }
+      ]
+    },
+    {
+      "id": "tpmkdr_007",
+      "busName": "Private 1",
+      "from": "Thuruthippuram",
+      "to": "Kodungallur",
+      "startTime": "10:20AM",
+      "endTime": "10:35AM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 1,
+          "arrivalTime": "10:20AM",
+          "departureTime": "10:20AM"
+        },
+        {
+          "id": 2,
+          "stopID": 6,
+          "arrivalTime": "10:35AM",
+          "departureTime": "10:35AM"
+        }
+      ]
+    },
+    {
+      "id": "tpmkdr_008",
+      "busName": "Private 1",
+      "from": "Thuruthippuram",
+      "to": "Kodungallur",
+      "startTime": "11:40AM",
+      "endTime": "11:55AM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 1,
+          "arrivalTime": "11:40AM",
+          "departureTime": "11:40AM"
+        },
+        {
+          "id": 2,
+          "stopID": 6,
+          "arrivalTime": "11:55AM",
+          "departureTime": "11:55AM"
+        }
+      ]
+    },
+    {
+      "id": "tpmkdr_009",
+      "busName": "Private 1",
+      "from": "Thuruthippuram",
+      "to": "Kodungallur",
+      "startTime": "12:10PM",
+      "endTime": "12:25PM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 1,
+          "arrivalTime": "12:10PM",
+          "departureTime": "12:10PM"
+        },
+        {
+          "id": 2,
+          "stopID": 6,
+          "arrivalTime": "12:25PM",
+          "departureTime": "12:25PM"
+        }
+      ]
+    },
+    {
+      "id": "tpmkdr_010",
+      "busName": "Private 1",
+      "from": "Thuruthippuram",
+      "to": "Kodungallur",
+      "startTime": "12.50PM",
+      "endTime": "01.05PM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 1,
+          "arrivalTime": "12.50PM",
+          "departureTime": "12.50PM"
+        },
+        {
+          "id": 2,
+          "stopID": 6,
+          "arrivalTime": "01.05PM",
+          "departureTime": "01.05PM"
+        }
+      ]
+    },
+    {
+      "id": "tpmkdr_011",
+      "busName": "Private 1",
+      "from": "Thuruthippuram",
+      "to": "Kodungallur",
+      "startTime": "03:40PM",
+      "endTime": "03:55PM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 1,
+          "arrivalTime": "03:40PM",
+          "departureTime": "03:40PM"
+        },
+        {
+          "id": 2,
+          "stopID": 6,
+          "arrivalTime": "03:55PM",
+          "departureTime": "03:55PM"
+        }
+      ]
+    },
+    {
+      "id": "tpmkdr_012",
+      "busName": "Private 1",
+      "from": "Thuruthippuram",
+      "to": "Kodungallur",
+      "startTime": "05:00PM",
+      "endTime": "05:15PM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 1,
+          "arrivalTime": "05:00PM",
+          "departureTime": "05:00PM"
+        },
+        {
+          "id": 2,
+          "stopID": 6,
+          "arrivalTime": "05:15PM",
+          "departureTime": "05:15PM"
+        }
+      ]
+    },
+    {
+      "id": "tpmkdr_013",
+      "busName": "Private 1",
+      "from": "Thuruthippuram",
+      "to": "Kodungallur",
+      "startTime": "05.50PM",
+      "endTime": "06.05PM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 1,
+          "arrivalTime": "05.50PM",
+          "departureTime": "05.50PM"
+        },
+        {
+          "id": 2,
+          "stopID": 6,
+          "arrivalTime": "06.05PM",
+          "departureTime": "06.05PM"
+        }
+      ]
+    },
+    {
+      "id": "tpmkdr_014",
+      "busName": "Private 1",
+      "from": "Thuruthippuram",
+      "to": "Kodungallur",
+      "startTime": "06:00PM",
+      "endTime": "06:15PM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 1,
+          "arrivalTime": "06:00PM",
+          "departureTime": "06:00PM"
+        },
+        {
+          "id": 2,
+          "stopID": 6,
+          "arrivalTime": "06:15PM",
+          "departureTime": "06:15PM"
+        }
+      ]
+    },
+    {
+      "id": "tpmkdr_015",
+      "busName": "Private 1",
+      "from": "Thuruthippuram",
+      "to": "Kodungallur",
+      "startTime": "06:20PM",
+      "endTime": "06:35PM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 1,
+          "arrivalTime": "06:20PM",
+          "departureTime": "06:20PM"
+        },
+        {
+          "id": 2,
+          "stopID": 6,
+          "arrivalTime": "06:35PM",
+          "departureTime": "06:35PM"
+        }
+      ]
+    },
+{
+      "id": "pvkkdr_001",
+      "busName": "Private 1",
+      "from": "Puthanvelikkara",
+      "to": "Kodungallur",
+      "startTime": "06:15AM",
+      "endTime": "06:35AM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 2,
+          "arrivalTime": "06:15AM",
+          "departureTime": "06:15AM"
+        },
+        {
+          "id": 2,
+          "stopID": 1,
+          "arrivalTime": "06:25AM",
+          "departureTime": "06:25AM"
+        },
+        {
+          "id": 3,
+          "stopID": 6,
+          "arrivalTime": "06:35AM",
+          "departureTime": "06:35AM"
+        }
+
+      ]
+    },
+{
+      "id": "pvkkdr_002",
+      "busName": "Private 1",
+      "from": "Puthanvelikkara",
+      "to": "Kodungallur",
+      "startTime": "06:25AM",
+      "endTime": "06:45AM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 2,
+          "arrivalTime": "06:25AM",
+          "departureTime": "06:25AM"
+        },
+        {
+          "id": 2,
+          "stopID": 1,
+          "arrivalTime": "06:35AM",
+          "departureTime": "06:35AM"
+        },
+        {
+          "id": 3,
+          "stopID": 6,
+          "arrivalTime": "06:45AM",
+          "departureTime": "06:45AM"
+        }
+
+      ]
+    },
+{
+      "id": "pvkgvr_001",
+      "busName": "KSRTC",
+      "from": "Paravur",
+      "to": "Guruvayoor",
+      "startTime": "06:30AM",
+      "endTime": "08:30AM",
+      "busType": "KSRTC",
+      "speciality": "Priyadarshini",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 5,
+          "arrivalTime": "06:30AM",
+          "departureTime": "06:30AM"
+        },
+ 	{
+          "id": 2,
+          "stopID": 2,
+          "arrivalTime": "06:50AM",
+          "departureTime": "06:50AM"
+        },
+
+        {
+          "id": 3,
+          "stopID": 1,
+          "arrivalTime": "07:00AM",
+          "departureTime": "07:00AM"
+        },
+        {
+          "id": 4,
+          "stopID": 6,
+          "arrivalTime": "07:10AM",
+          "departureTime": "07:10AM"
+        },
+        {
+          "id": 5,
+          "stopID": 7,
+          "arrivalTime": "08:30AM",
+          "departureTime": "08:30AM"
+        }
+      ]
+    },
+    {
+      "id": "pvkkdr_004",
+      "busName": "Private 1",
+      "from": "Puthanvelikkara",
+      "to": "Kodungallur",
+      "startTime": "07:10AM",
+      "endTime": "07:30AM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 2,
+          "arrivalTime": "07:10AM",
+          "departureTime": "07:10AM"
+        },
+        {
+          "id": 2,
+          "stopID": 1,
+          "arrivalTime": "07:20AM",
+          "departureTime": "07:20AM"
+        },
+        {
+          "id": 3,
+          "stopID": 6,
+          "arrivalTime": "07:30AM",
+          "departureTime": "07:30AM"
+        }
+
+      ]
+    },
+    {
+      "id": "pvkkdr_005",
+      "busName": "Private 1",
+      "from": "Puthanvelikkara",
+      "to": "Kodungallur",
+      "startTime": "07:25AM",
+      "endTime": "07:45AM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 2,
+          "arrivalTime": "07:25AM",
+          "departureTime": "07:25AM"
+        },
+        {
+          "id": 2,
+          "stopID": 1,
+          "arrivalTime": "07:35AM",
+          "departureTime": "07:35AM"
+        },
+        {
+          "id": 3,
+          "stopID": 6,
+          "arrivalTime": "07:45AM",
+          "departureTime": "07:45AM"
+        }
+
+      ]
+    },
+    {
+      "id": "pvkkdr_006",
+      "busName": "Private 1",
+      "from": "Puthanvelikkara",
+      "to": "Kodungallur",
+      "startTime": "08:10AM",
+      "endTime": "08:30AM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 2,
+          "arrivalTime": "08:10AM",
+          "departureTime": "08:10AM"
+        },
+        {
+          "id": 2,
+          "stopID": 1,
+          "arrivalTime": "08:20AM",
+          "departureTime": "08:20AM"
+        },
+        {
+          "id": 3,
+          "stopID": 6,
+          "arrivalTime": "08:30AM",
+          "departureTime": "08:30AM"
+        }
+
+      ]
+    },
+    {
+      "id": "pvkkdr_007",
+      "busName": "Private 1",
+      "from": "Puthanvelikkara",
+      "to": "Kodungallur",
+      "startTime": "09:20AM",
+      "endTime": "09:40AM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 2,
+          "arrivalTime": "09:20AM",
+          "departureTime": "09:20AM"
+        },
+        {
+          "id": 2,
+          "stopID": 1,
+          "arrivalTime": "09:30AM",
+          "departureTime": "09:30AM"
+        },
+        {
+          "id": 3,
+          "stopID": 6,
+          "arrivalTime": "09:40AM",
+          "departureTime": "09:40AM"
+        }
+
+      ]
+    },
+    {
+      "id": "pvkkdr_008",
+      "busName": "Private 1",
+      "from": "Puthanvelikkara",
+      "to": "Kodungallur",
+      "startTime": "09:40AM",
+      "endTime": "10:00AM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 2,
+          "arrivalTime": "09:40AM",
+          "departureTime": "09:40AM"
+        },
+        {
+          "id": 2,
+          "stopID": 1,
+          "arrivalTime": "09:50AM",
+          "departureTime": "09:50AM"
+        },
+        {
+          "id": 3,
+          "stopID": 6,
+          "arrivalTime": "10:00AM",
+          "departureTime": "10:00AM"
+        }
+
+      ]
+    },
+    {
+      "id": "pvkkdr_009",
+      "busName": "Private 1",
+      "from": "Puthanvelikkara",
+      "to": "Kodungallur",
+      "startTime": "10:10AM",
+      "endTime": "10:30AM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 2,
+          "arrivalTime": "10:10AM",
+          "departureTime": "10:10AM"
+        },
+        {
+          "id": 2,
+          "stopID": 1,
+          "arrivalTime": "10:20AM",
+          "departureTime": "10:20AM"
+        },
+        {
+          "id": 3,
+          "stopID": 6,
+          "arrivalTime": "10:30AM",
+          "departureTime": "10:30AM"
+        }
+
+      ]
+    },
+    {
+      "id": "pvkkdr_010",
+      "busName": "Private 1",
+      "from": "Puthanvelikkara",
+      "to": "Kodungallur",
+      "startTime": "10:30AM",
+      "endTime": "10:50AM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 2,
+          "arrivalTime": "10:30AM",
+          "departureTime": "10:30AM"
+        },
+        {
+          "id": 2,
+          "stopID": 1,
+          "arrivalTime": "10:40AM",
+          "departureTime": "10:40AM"
+        },
+        {
+          "id": 3,
+          "stopID": 6,
+          "arrivalTime": "10:50AM",
+          "departureTime": "10:50AM"
+        }
+
+      ]
+    },
+    {
+      "id": "pvkkdr_011",
+      "busName": "Private 1",
+      "from": "Puthanvelikkara",
+      "to": "Kodungallur",
+      "startTime": "11:10AM",
+      "endTime": "11:30AM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 2,
+          "arrivalTime": "11:10AM",
+          "departureTime": "11:10AM"
+        },
+        {
+          "id": 2,
+          "stopID": 1,
+          "arrivalTime": "11:20AM",
+          "departureTime": "11:20AM"
+        },
+        {
+          "id": 3,
+          "stopID": 6,
+          "arrivalTime": "11:30AM",
+          "departureTime": "11:30AM"
+        }
+
+      ]
+    },
+    {
+      "id": "pvkkdr_012",
+      "busName": "Private 1",
+      "from": "Puthanvelikkara",
+      "to": "Kodungallur",
+      "startTime": "11:50AM",
+      "endTime": "12:10PM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 2,
+          "arrivalTime": "11:50AM",
+          "departureTime": "11:50AM"
+        },
+        {
+          "id": 2,
+          "stopID": 1,
+          "arrivalTime": "12:00PM",
+          "departureTime": "12:00PM"
+        },
+        {
+          "id": 3,
+          "stopID": 6,
+          "arrivalTime": "12:10PM",
+          "departureTime": "12:10PM"
+        }
+
+      ]
+    },
+   {
+      "id": "pvkkdr_013",
+      "busName": "Private 1",
+      "from": "Puthanvelikkara",
+      "to": "Kodungallur",
+      "startTime": "12:40PM",
+      "endTime": "01:00PM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 2,
+          "arrivalTime": "12:40PM",
+          "departureTime": "12:40PM"
+        },
+        {
+          "id": 2,
+          "stopID": 1,
+          "arrivalTime": "12:50PM",
+          "departureTime": "12:50PM"
+        },
+        {
+          "id": 3,
+          "stopID": 6,
+          "arrivalTime": "01:00PM",
+          "departureTime": "01:00PM"
+        }
+
+      ]
+    },
+ {
+      "id": "pvkkdr_015",
+      "busName": "Private 1",
+      "from": "Puthanvelikkara",
+      "to": "Kodungallur",
+      "startTime": "03:10PM",
+      "endTime": "03:30PM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 2,
+          "arrivalTime": "03:10PM",
+          "departureTime": "03:10PM"
+        },
+        {
+          "id": 2,
+          "stopID": 1,
+          "arrivalTime": "03:20PM",
+          "departureTime": "03:20PM"
+        },
+        {
+          "id": 3,
+          "stopID": 6,
+          "arrivalTime": "03:30PM",
+          "departureTime": "03:30PM"
+        }
+
+      ]
+    },
+    {
+      "id": "pvkkdr_016",
+      "busName": "Private 1",
+      "from": "Puthanvelikkara",
+      "to": "Kodungallur",
+      "startTime": "04:10PM",
+      "endTime": "04:30PM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 2,
+          "arrivalTime": "04:10PM",
+          "departureTime": "04:10PM"
+        },
+        {
+          "id": 2,
+          "stopID": 1,
+          "arrivalTime": "04:20PM",
+          "departureTime": "04:20PM"
+        },
+        {
+          "id": 3,
+          "stopID": 6,
+          "arrivalTime": "04:30PM",
+          "departureTime": "04:30PM"
+        }
+      ]
+    },
+    {
+      "id": "pvkkdr_017",
+      "busName": "Private 1",
+      "from": "Puthanvelikkara",
+      "to": "Kodungallur",
+      "startTime": "04:50PM",
+      "endTime": "05:10PM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 2,
+          "arrivalTime": "04:50PM",
+          "departureTime": "04:50PM"
+        },
+        {
+          "id": 2,
+          "stopID": 1,
+          "arrivalTime": "05:00PM",
+          "departureTime": "05:00PM"
+        },
+        {
+          "id": 3,
+          "stopID": 6,
+          "arrivalTime": "05:10PM",
+          "departureTime": "05:10PM"
+        }
+      ]
+    },
+   {
+      "id": "pvkkdr_018",
+      "busName": "Private 1",
+      "from": "Puthanvelikkara",
+      "to": "Kodungallur",
+      "startTime": "05:10PM",
+      "endTime": "05:30PM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 2,
+          "arrivalTime": "05:10PM",
+          "departureTime": "05:10PM"
+        },
+        {
+          "id": 2,
+          "stopID": 1,
+          "arrivalTime": "05:20PM",
+          "departureTime": "05:20PM"
+        },
+        {
+          "id": 3,
+          "stopID": 6,
+          "arrivalTime": "05:30PM",
+          "departureTime": "05:30PM"
+        }
+      ]
+    },
+    {
+      "id": "pvkkdr_019",
+      "busName": "Private 1",
+      "from": "Puthanvelikkara",
+      "to": "Kodungallur",
+      "startTime": "06:30PM",
+      "endTime": "06:50PM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 2,
+          "arrivalTime": "06:30PM",
+          "departureTime": "06:50PM"
+        },
+        {
+          "id": 2,
+          "stopID": 1,
+          "arrivalTime": "06:40PM",
+          "departureTime": "06:40PM"
+        },
+        {
+          "id": 3,
+          "stopID": 6,
+          "arrivalTime": "06:50PM",
+          "departureTime": "06:50PM"
+        }
+      ]
+    },
+    {
+      "id": "mltvm_001",
+      "busName": "KSRTC",
+      "from": "Mala",
+      "to": "Thiruvananthapuram",
+      "startTime": "04:30AM",
+      "endTime": "12:15PM",
+      "busType": "KSRTC",
+      "speciality": "SuperFast",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 9,
+          "arrivalTime": "04:30AM",
+          "departureTime": "04:30AM"
+        },
+        {
+          "id": 2,
+          "stopID": 1,
+          "arrivalTime": "04:45AM",
+          "departureTime": "04:45AM"
+        },
+        {
+          "id": 3,
+          "stopID": 2,
+          "arrivalTime": "04:55AM",
+          "departureTime": "04:55AM"
+        },
+        {
+          "id": 4,
+          "stopID": 8,
+          "arrivalTime": "12:15PM",
+          "departureTime": "12:15PM"
+        }
+      ]
+    },
+    {
+      "id": "tpmalv_001",
+      "busName": "KSRTC",
       "from": "Thuruthippuram",
       "to": "Aluva",
-      "startTime": "07:15",
-      "endTime": "9:00",
+      "startTime": "07:00AM",
+      "endTime": "08:15AM",
       "busType": "KSRTC",
       "speciality": "Priyadarshini",
       "stops": [
         {
           "id": 1,
           "stopID": 1,
-          "arrivalTime": "07:15",
-          "departureTime": "07:15"
+          "arrivalTime": "07:00AM",
+          "departureTime": "07:00AM"
         },
         {
           "id": 2,
           "stopID": 2,
-          "arrivalTime": "07:25",
-          "departureTime": "07:25"
+          "arrivalTime": "07:15AM",
+          "departureTime": "07:15AM"
         },
         {
           "id": 3,
           "stopID": 3,
-          "arrivalTime": "09:00",
-          "departureTime": "09:00"
+          "arrivalTime": "08:15AM",
+          "departureTime": "08:15AM"
         }
       ]
     },
     {
-      "id": "route_002",
-      "busName": "St. John",
+      "id": "tpmckd_001",
+      "busName": "Private 1",
       "from": "Thuruthippuram",
       "to": "Chalakkudy",
-      "startTime": "04:15",
-      "endTime": "05:30",
+      "startTime": "07:18AM",
+      "endTime": "08:18AM",
       "busType": "Private",
       "speciality": "Ordinary",
       "stops": [
         {
           "id": 1,
           "stopID": 1,
-          "arrivalTime": "04:15",
-          "departureTime": "04:15"
+          "arrivalTime": "07:18AM",
+          "departureTime": "07:18AM"
         },
         {
           "id": 2,
           "stopID": 2,
-          "arrivalTime": "04:45",
-          "departureTime": "04:45"
+          "arrivalTime": "07:33AM",
+          "departureTime": "07:33AM"
         },
         {
           "id": 3,
           "stopID": 4,
-          "arrivalTime": "05:30",
-          "departureTime": "05:30"
+          "arrivalTime": "08:18AM",
+          "departureTime": "08:18AM"
         }
       ]
     },
     {
-      "id": "route_003",
-      "busName": "KSRTC Gramavandi",
+      "id": "tpmckd_002",
+      "busName": "Private 1",
+      "from": "Thuruthippuram",
+      "to": "Chalakkudy",
+      "startTime": "08:05AM",
+      "endTime": "09:05AM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 1,
+          "arrivalTime": "08:05AM",
+          "departureTime": "08:05AM"
+        },
+        {
+          "id": 2,
+          "stopID": 2,
+          "arrivalTime": "08:20AM",
+          "departureTime": "08:20AM"
+        },
+        {
+          "id": 3,
+          "stopID": 4,
+          "arrivalTime": "09:05AM",
+          "departureTime": "09:05AM"
+        }
+      ]
+    },
+    {
+      "id": "tpmckd_003",
+      "busName": "Private 1",
+      "from": "Thuruthippuram",
+      "to": "Chalakkudy",
+      "startTime": "09:10AM",
+      "endTime": "10:10AM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 1,
+          "arrivalTime": "09:10AM",
+          "departureTime": "09:10AM"
+        },
+        {
+          "id": 2,
+          "stopID": 2,
+          "arrivalTime": "09:25AM",
+          "departureTime": "09:25AM"
+        },
+        {
+          "id": 3,
+          "stopID": 4,
+          "arrivalTime": "10:10AM",
+          "departureTime": "10:10AM"
+        }
+      ]
+    },
+    {
+      "id": "tpmckd_004",
+      "busName": "Private 1",
+      "from": "Thuruthippuram",
+      "to": "Chalakkudy",
+      "startTime": "09:10AM",
+      "endTime": "10:10AM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 1,
+          "arrivalTime": "09:10AM",
+          "departureTime": "09:10AM"
+        },
+        {
+          "id": 2,
+          "stopID": 2,
+          "arrivalTime": "09:25AM",
+          "departureTime": "09:25AM"
+        },
+        {
+          "id": 3,
+          "stopID": 4,
+          "arrivalTime": "10:10AM",
+          "departureTime": "10:10AM"
+        }
+      ]
+    },
+    {
+      "id": "tpmckd_005",
+      "busName": "Private 1",
+      "from": "Thuruthippuram",
+      "to": "Chalakkudy",
+      "startTime": "09:20AM",
+      "endTime": "10:20AM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 1,
+          "arrivalTime": "09:20AM",
+          "departureTime": "09:20AM"
+        },
+        {
+          "id": 2,
+          "stopID": 2,
+          "arrivalTime": "09:35AM",
+          "departureTime": "09:35AM"
+        },
+        {
+          "id": 3,
+          "stopID": 4,
+          "arrivalTime": "10:20AM",
+          "departureTime": "10:20AM"
+        }
+      ]
+    },
+    {
+      "id": "tpmckd_006",
+      "busName": "Private 1",
+      "from": "Thuruthippuram",
+      "to": "Chalakkudy",
+      "startTime": "09:50AM",
+      "endTime": "10:50AM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 1,
+          "arrivalTime": "09:50AM",
+          "departureTime": "09:50AM"
+        },
+        {
+          "id": 2,
+          "stopID": 2,
+          "arrivalTime": "10:15AM",
+          "departureTime": "10:15AM"
+        },
+        {
+          "id": 3,
+          "stopID": 4,
+          "arrivalTime": "10:50AM",
+          "departureTime": "10:50AM"
+        }
+      ]
+    },
+    {
+      "id": "tpmckd_007",
+      "busName": "Private 1",
+      "from": "Thuruthippuram",
+      "to": "Chalakkudy",
+      "startTime": "10:30AM",
+      "endTime": "11:30AM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 1,
+          "arrivalTime": "10:30AM",
+          "departureTime": "10:30AM"
+        },
+        {
+          "id": 2,
+          "stopID": 2,
+          "arrivalTime": "10:45AM",
+          "departureTime": "10:45AM"
+        },
+        {
+          "id": 3,
+          "stopID": 4,
+          "arrivalTime": "11:30AM",
+          "departureTime": "11:30AM"
+        }
+      ]
+    },
+    {
+      "id": "tpmckd_008",
+      "busName": "Private 1",
+      "from": "Thuruthippuram",
+      "to": "Chalakkudy",
+      "startTime": "11:05AM",
+      "endTime": "12:05PM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 1,
+          "arrivalTime": "11:05AM",
+          "departureTime": "11:05AM"
+        },
+        {
+          "id": 2,
+          "stopID": 2,
+          "arrivalTime": "11:20AM",
+          "departureTime": "11:20AM"
+        },
+        {
+          "id": 3,
+          "stopID": 4,
+          "arrivalTime": "12:05PM",
+          "departureTime": "12:05PM"
+        }
+      ]
+    },
+    {
+      "id": "tpmckd_009",
+      "busName": "Private 1",
+      "from": "Thuruthippuram",
+      "to": "Chalakkudy",
+      "startTime": "01:30PM",
+      "endTime": "02:30PM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 1,
+          "arrivalTime": "01:30PM",
+          "departureTime": "01:30PM"
+        },
+        {
+          "id": 2,
+          "stopID": 2,
+          "arrivalTime": "01:45PM",
+          "departureTime": "01:45PM"
+        },
+        {
+          "id": 3,
+          "stopID": 4,
+          "arrivalTime": "02:30PM",
+          "departureTime": "02:30PM"
+        }
+      ]
+    },
+    {
+      "id": "tpmckd_010",
+      "busName": "Private 1",
+      "from": "Thuruthippuram",
+      "to": "Chalakkudy",
+      "startTime": "01:45PM",
+      "endTime": "02:45PM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 1,
+          "arrivalTime": "01:45PM",
+          "departureTime": "01:45PM"
+        },
+        {
+          "id": 2,
+          "stopID": 2,
+          "arrivalTime": "02:00PM",
+          "departureTime": "02:00PM"
+        },
+        {
+          "id": 3,
+          "stopID": 4,
+          "arrivalTime": "02:45PM",
+          "departureTime": "02:45PM"
+        }
+      ]
+    },
+    {
+      "id": "tpmckd_011",
+      "busName": "Private 1",
+      "from": "Thuruthippuram",
+      "to": "Chalakkudy",
+      "startTime": "03:45PM",
+      "endTime": "04:45PM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 1,
+          "arrivalTime": "03:45PM",
+          "departureTime": "03:45PM"
+        },
+        {
+          "id": 2,
+          "stopID": 2,
+          "arrivalTime": "04:00PM",
+          "departureTime": "04:00PM"
+        },
+        {
+          "id": 3,
+          "stopID": 4,
+          "arrivalTime": "04:45PM",
+          "departureTime": "04:45PM"
+        }
+      ]
+    },
+    {
+      "id": "tpmckd_012",
+      "busName": "Private 1",
+      "from": "Thuruthippuram",
+      "to": "Chalakkudy",
+      "startTime": "04:02PM",
+      "endTime": "05:02PM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 1,
+          "arrivalTime": "04:02PM",
+          "departureTime": "04:02PM"
+        },
+        {
+          "id": 2,
+          "stopID": 2,
+          "arrivalTime": "04:17PM",
+          "departureTime": "04:17PM"
+        },
+        {
+          "id": 3,
+          "stopID": 4,
+          "arrivalTime": "05:02PM",
+          "departureTime": "05:02PM"
+        }
+      ]
+    },
+    {
+      "id": "tpmckd_013",
+      "busName": "Private 1",
+      "from": "Thuruthippuram",
+      "to": "Chalakkudy",
+      "startTime": "04:48PM",
+      "endTime": "05:48PM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 1,
+          "arrivalTime": "04:48PM",
+          "departureTime": "04:48PM"
+        },
+        {
+          "id": 2,
+          "stopID": 2,
+          "arrivalTime": "05:03PM",
+          "departureTime": "05:03PM"
+        },
+        {
+          "id": 3,
+          "stopID": 4,
+          "arrivalTime": "05:48PM",
+          "departureTime": "05:48PM"
+        }
+      ]
+    },
+    {
+      "id": "kdralv_001",
+      "busName": "KSRTC",
+      "from": "Kodungallur",
+      "to": "Aluva",
+      "startTime": "08:45AM",
+      "endTime": "10:15AM",
+      "busType": "KSRTC",
+      "speciality": "Priyadarshini",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 6,
+          "arrivalTime": "08:45AM",
+          "departureTime": "08:45AM"
+        },
+        {
+          "id": 2,
+          "stopID": 1,
+          "arrivalTime": "09:00AM",
+          "departureTime": "09:00AM"
+        },
+        {
+          "id": 3,
+          "stopID": 2,
+          "arrivalTime": "09:15AM",
+          "departureTime": "09:15AM"
+        },
+        {
+          "id": 4,
+          "stopID": 3,
+          "arrivalTime": "10:15AM",
+          "departureTime": "10:15AM"
+        }
+      ]
+    },
+    {
+      "id": "kdralv_002",
+      "busName": "KSRTC",
+      "from": "Kodungallur",
+      "to": "Aluva",
+      "startTime": "06:55PM",
+      "endTime": "08:25PM",
+      "busType": "KSRTC",
+      "speciality": "Priyadarshini",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 6,
+          "arrivalTime": "06:55PM",
+          "departureTime": "06:55PM"
+        },
+        {
+          "id": 2,
+          "stopID": 1,
+          "arrivalTime": "07:10PM",
+          "departureTime": "07:10PM"
+        },
+        {
+          "id": 3,
+          "stopID": 2,
+          "arrivalTime": "07:25PM",
+          "departureTime": "07:25AM"
+        },
+        {
+          "id": 4,
+          "stopID": 3,
+          "arrivalTime": "08:25PM",
+          "departureTime": "08:25PM"
+        }
+      ]
+    },
+    {
+      "id": "tpmpvr_001",
+      "busName": "KSRTC",
       "from": "Thuruthippuram",
       "to": "Paravur",
-      "startTime": "09:00",
-      "endTime": "09:45",
-      "busType": "Gramavandi",
+      "startTime": "09:00AM",
+      "endTime": "09:45AM",
+      "busType": "KSRTC",
       "speciality": "Priyadarshini",
       "stops": [
         {
           "id": 1,
           "stopID": 1,
-          "arrivalTime": "09:00",
-          "departureTime": "09:03"
+          "arrivalTime": "09:00AM",
+          "departureTime": "09:00AM"
         },
         {
           "id": 2,
           "stopID": 2,
-          "arrivalTime": "09:10",
-          "departureTime": "09:10"
+          "arrivalTime": "09:15AM",
+          "departureTime": "09:15AM"
         },
         {
           "id": 3,
           "stopID": 5,
-          "arrivalTime": "09:45",
-          "departureTime": "09:45"
-        }  
-      ]
-    },
-    {
-      "id": "route_004",
-      "busName": "Valiyaparambil",
-      "from": "Thuruthippuram",
-      "to": "Kodungallur",
-      "startTime": "07:00",
-      "endTime": "07:30",
-      "busType": "Private",
-      "speciality": "Ordinary",
-      "stops": [
-        {
-          "id": 1,
-          "stopID": 1,
-          "arrivalTime": "07:00",
-          "departureTime": "07:00"
-        },
-        {
-          "id": 2,
-          "stopID": 6,
-          "arrivalTime": "07:30",
-          "departureTime": "07:30"
+          "arrivalTime": "09:45AM",
+          "departureTime": "09:45AM"
         }
       ]
     },
     {
-      "id": "route_005",
-      "busName": "Jesus",
+      "id": "tpmpvr_002",
+      "busName": "KSRTC",
       "from": "Thuruthippuram",
-      "to": "Chalakkudy",
-      "startTime": "06:30",
-      "endTime": "07:45",
-      "busType": "Private",
-      "speciality": "Ordinary",
+      "to": "Paravur",
+      "startTime": "06:20PM",
+      "endTime": "07:05PM",
+      "busType": "KSRTC",
+      "speciality": "Priyadarshini",
       "stops": [
         {
           "id": 1,
           "stopID": 1,
-          "arrivalTime": "06:30",
-          "departureTime": "06:30"
+          "arrivalTime": "06:20PM",
+          "departureTime": "06:20PM"
         },
         {
           "id": 2,
           "stopID": 2,
-          "arrivalTime": "06:45",
-          "departureTime": "06:45"
+          "arrivalTime": "06:35PM",
+          "departureTime": "06:35PM"
         },
         {
           "id": 3,
-          "stopID": 4,
-          "arrivalTime": "07:45",
-          "departureTime": "07:45"
+          "stopID": 5,
+          "arrivalTime": "07:05PM",
+          "departureTime": "07:05PM"
         }
       ]
-    }
-    
+    },
+    {
+      "id": "kdrpvk_001",
+      "busName": "Private",
+      "from": "Kodungallur",
+      "to": "Puthanvelikkara",
+      "startTime": "05:55PM",
+      "endTime": "06:25PM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 6,
+          "arrivalTime": "05:55PM",
+          "departureTime": "05:55PM"
+        },
+        {
+          "id": 2,
+          "stopID": 1,
+          "arrivalTime": "06:10PM",
+          "departureTime": "06:10PM"
+        },
+        {
+          "id": 3,
+          "stopID": 2,
+          "arrivalTime": "06:25PM",
+          "departureTime": "06:25AM"
+        }
+      ]
+    } 
   ]
 }

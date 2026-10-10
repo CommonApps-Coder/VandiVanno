@@ -253,20 +253,56 @@ clearSearchBtn.addEventListener('click', () => {
     updateSearchButtonState();
 });
 
-// Helper: Calculate duration between two times (HH:MM format)
-function calculateDuration(startTime, endTime) {
-    const [startHour, startMin] = startTime.split(':').map(Number);
-    const [endHour, endMin] = endTime.split(':').map(Number);
-
-    let startMinutes = startHour * 60 + startMin;
-    let endMinutes = endHour * 60 + endMin;
-
-    // Handle overnight routes
-    if (endMinutes < startMinutes) {
-        endMinutes += 24 * 60;
+// Parse times like 07:15AM or 09:45PM into total minutes from midnight
+function parseTimeToMinutes(timeValue) {
+    if (!timeValue) {
+        return NaN;
     }
 
-    const durationMinutes = endMinutes - startMinutes;
+    const trimmed = String(timeValue).trim();
+    const meridiemMatch = trimmed.match(/^(\d{1,2}):(\d{2})(AM|PM)$/i);
+    if (meridiemMatch) {
+        let hour = Number(meridiemMatch[1]);
+        const minute = Number(meridiemMatch[2]);
+        const period = meridiemMatch[3].toUpperCase();
+
+        if (period === 'AM' && hour === 12) {
+            hour = 0;
+        }
+        if (period === 'PM' && hour !== 12) {
+            hour += 12;
+        }
+
+        return hour * 60 + minute;
+    }
+
+    const plainMatch = trimmed.match(/^(\d{1,2}):(\d{2})$/);
+    if (!plainMatch) {
+        return NaN;
+    }
+
+    const hour = Number(plainMatch[1]);
+    const minute = Number(plainMatch[2]);
+    return hour * 60 + minute;
+}
+
+// Helper: Calculate duration between two times (supports AM/PM format)
+function calculateDuration(startTime, endTime) {
+    const startMinutes = parseTimeToMinutes(startTime);
+    const endMinutes = parseTimeToMinutes(endTime);
+
+    if (Number.isNaN(startMinutes) || Number.isNaN(endMinutes)) {
+        return 'N/A';
+    }
+
+    let adjustedEndMinutes = endMinutes;
+
+    // Handle overnight routes
+    if (adjustedEndMinutes < startMinutes) {
+        adjustedEndMinutes += 24 * 60;
+    }
+
+    const durationMinutes = adjustedEndMinutes - startMinutes;
     const hours = Math.floor(durationMinutes / 60);
     const minutes = durationMinutes % 60;
 
