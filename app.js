@@ -16,7 +16,29 @@ const resultsTitle = document.getElementById('resultsTitle');
 // Initialize App
 document.addEventListener('DOMContentLoaded', () => {
     loadBusData();
+    trackVisitCount();
 });
+
+async function trackVisitCount() {
+    const visitorCount = document.getElementById('visitorCount');
+
+    try {
+        const response = await fetch('https://api.counterapi.dev/v1/vandivanno-bus-timing/visits/up');
+        if (!response.ok) {
+            throw new Error(`Counter request failed: ${response.status}`);
+        }
+
+        const data = await response.json();
+        if (typeof data.count !== 'number') {
+            throw new Error('Counter response did not include a count.');
+        }
+
+        visitorCount.textContent = `Visits: ${data.count.toLocaleString()}`;
+    } catch (error) {
+        console.error('Error loading visitor count:', error);
+        visitorCount.textContent = 'Visits: unavailable';
+    }
+}
 
 // Load bus data from JSON file
 async function loadBusData() {
