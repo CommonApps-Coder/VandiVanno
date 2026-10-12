@@ -24,12 +24,13 @@ async function trackVisitCount() {
 
     try {
         const counter = new Counter({ workspace: 'VandiVanno' });
-        const result = await counter.up('visits');
-        if (typeof result.value !== 'number') {
+        const result = await counter.up('visits-5883');
+        const visitTotal = result.data?.up_count;
+        if (typeof visitTotal !== 'number') {
             throw new Error('Counter response did not include a numeric value.');
         }
 
-        visitorCount.textContent = `Visits: ${result.value.toLocaleString()}`;
+        visitorCount.textContent = `Visits: ${visitTotal.toLocaleString()}`;
     } catch (error) {
         console.error('Error loading visitor count:', error);
         visitorCount.textContent = 'Visits: unavailable';
