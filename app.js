@@ -23,17 +23,13 @@ async function trackVisitCount() {
     const visitorCount = document.getElementById('visitorCount');
 
     try {
-        const response = await fetch('https://api.counterapi.dev/v1/vandivanno-bus-timing/visits/up');
-        if (!response.ok) {
-            throw new Error(`Counter request failed: ${response.status}`);
+        const counter = new Counter({ workspace: 'vandivanno-bus-timing' });
+        const result = await counter.up('visits');
+        if (typeof result.value !== 'number') {
+            throw new Error('Counter response did not include a numeric value.');
         }
 
-        const data = await response.json();
-        if (typeof data.count !== 'number') {
-            throw new Error('Counter response did not include a count.');
-        }
-
-        visitorCount.textContent = `Visits: ${data.count.toLocaleString()}`;
+        visitorCount.textContent = `Visits: ${result.value.toLocaleString()}`;
     } catch (error) {
         console.error('Error loading visitor count:', error);
         visitorCount.textContent = 'Visits: unavailable';
