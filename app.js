@@ -23,7 +23,7 @@ async function trackVisitCount() {
     const visitorCount = document.getElementById('visitorCount');
 
     try {
-        const counter = new Counter({ workspace: 'vandivanno-bus-timing' });
+        const counter = new Counter({ workspace: 'VandiVanno' });
         const result = await counter.up('visits');
         if (typeof result.value !== 'number') {
             throw new Error('Counter response did not include a numeric value.');
