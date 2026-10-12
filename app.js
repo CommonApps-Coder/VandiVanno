@@ -21,16 +21,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
 async function trackVisitCount() {
     const visitorCount = document.getElementById('visitorCount');
-
+    
     try {
         const counter = new Counter({ workspace: 'VandiVanno' });
         const result = await counter.up('visits-5883');
-        const visitTotal = result.data?.up_count;
-        if (typeof visitTotal !== 'number') {
+        if (typeof result.value !== 'number') {
             throw new Error('Counter response did not include a numeric value.');
         }
 
-        visitorCount.textContent = `Visits: ${visitTotal.toLocaleString()}`;
+        visitorCount.textContent = `Visits: ${result.value.toLocaleString()}`;
     } catch (error) {
         console.error('Error loading visitor count:', error);
         visitorCount.textContent = 'Visits: unavailable';
