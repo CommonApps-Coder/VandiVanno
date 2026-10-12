@@ -25,11 +25,12 @@ async function trackVisitCount() {
     try {
         const counter = new Counter({ workspace: 'VandiVanno' });
         const result = await counter.up('visits-5883');
-        if (typeof result.value !== 'number') {
+        const visitTotal = result.data?.up_count;
+        if (typeof visitTotal !== 'number') {
             throw new Error('Counter response did not include a numeric value.');
         }
 
-        visitorCount.textContent = `Visits: ${result.value.toLocaleString()}`;
+        visitorCount.textContent = `Visits: ${visitTotal.toLocaleString()}`;
     } catch (error) {
         console.error('Error loading visitor count:', error);
         visitorCount.textContent = 'Visits: unavailable';
@@ -161,6 +162,18 @@ function performSearch() {
         const toIndex = getRouteStopIndex(route, toStopId);
         return fromIndex !== -1 && toIndex !== -1 && fromIndex < toIndex;
     });
+    matchingRoutes.sort((a, b) => {
+        const aTime = parseTimeToMinutes(getRouteDepartureTime(a, fromStopId));
+        const bTime = parseTimeToMinutes(getRouteDepartureTime(b, fromStopId));
+
+        if (Number.isNaN(aTime)) {
+            return Number.isNaN(bTime) ? 0 : 1;
+        }
+        if (Number.isNaN(bTime)) {
+            return -1;
+        }
+        return aTime - bTime;
+    });
 
     // Clear previous results
     busResults.innerHTML = '';
@@ -189,9 +202,8 @@ function createBusCard(route, fromStopId, toStopId) {
     const card = document.createElement('div');
     card.className = 'bg-white rounded-lg shadow-md p-6 border-l-4 border-blue-600 hover:shadow-lg transition-shadow';
 
-    const originStop = route.stops.find(stop => getSharedStopId(stop) === fromStopId);
     const destinationStop = route.stops.find(stop => getSharedStopId(stop) === toStopId);
-    const startTime = originStop?.departureTime || originStop?.arrivalTime || route.startTime;
+    const startTime = getRouteDepartureTime(route, fromStopId);
     const endTime = destinationStop?.arrivalTime || route.endTime;
     const duration = calculateDuration(startTime, endTime);
 
@@ -271,19 +283,22 @@ clearSearchBtn.addEventListener('click', () => {
     updateSearchButtonState();
 });
 
-// Parse times like 07:15AM or 09:45PM into total minutes from midnight
+// Parse AM/PM and 24-hour times into total minutes from midnight
 function parseTimeToMinutes(timeValue) {
     if (!timeValue) {
         return NaN;
     }
 
     const trimmed = String(timeValue).trim();
-    const meridiemMatch = trimmed.match(/^(\d{1,2}):(\d{2})(AM|PM)$/i);
+    const meridiemMatch = trimmed.match(/^(\d{1,2})[:.](\d{2})\s*(AM|PM)$/i);
     if (meridiemMatch) {
         let hour = Number(meridiemMatch[1]);
         const minute = Number(meridiemMatch[2]);
         const period = meridiemMatch[3].toUpperCase();
 
+        if (hour < 1 || hour > 12 || minute > 59) {
+            return NaN;
+        }
         if (period === 'AM' && hour === 12) {
             hour = 0;
         }
@@ -301,6 +316,9 @@ function parseTimeToMinutes(timeValue) {
 
     const hour = Number(plainMatch[1]);
     const minute = Number(plainMatch[2]);
+    if (hour > 23 || minute > 59) {
+        return NaN;
+    }
     return hour * 60 + minute;
 }
 
@@ -346,6 +364,11 @@ function getSharedStopId(stop) {
 
 function getRouteStopIndex(route, stopId) {
     return route.stops.findIndex(stop => getSharedStopId(stop) === stopId);
+}
+
+function getRouteDepartureTime(route, fromStopId) {
+    const originStop = route.stops.find(stop => getSharedStopId(stop) === fromStopId);
+    return originStop?.departureTime || originStop?.arrivalTime || route.startTime;
 }
 
 // Helper: Resolve stop name from normalized stop catalog

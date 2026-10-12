@@ -261,22 +261,22 @@
       "busName": "Private 1",
       "from": "Thuruthippuram",
       "to": "Kodungallur",
-      "startTime": "12.50PM",
-      "endTime": "01.05PM",
+      "startTime": "12:50PM",
+      "endTime": "01:05PM",
       "busType": "Private",
       "speciality": "Ordinary",
       "stops": [
         {
           "id": 1,
           "stopID": 1,
-          "arrivalTime": "12.50PM",
-          "departureTime": "12.50PM"
+          "arrivalTime": "12:50PM",
+          "departureTime": "12:50PM"
         },
         {
           "id": 2,
           "stopID": 6,
-          "arrivalTime": "01.05PM",
-          "departureTime": "01.05PM"
+          "arrivalTime": "01:05PM",
+          "departureTime": "01:05PM"
         }
       ]
     },
@@ -333,22 +333,22 @@
       "busName": "Private 1",
       "from": "Thuruthippuram",
       "to": "Kodungallur",
-      "startTime": "05.50PM",
-      "endTime": "06.05PM",
+      "startTime": "05:50PM",
+      "endTime": "06:05PM",
       "busType": "Private",
       "speciality": "Ordinary",
       "stops": [
         {
           "id": 1,
           "stopID": 1,
-          "arrivalTime": "05.50PM",
-          "departureTime": "05.50PM"
+          "arrivalTime": "05:50PM",
+          "departureTime": "05:50PM"
         },
         {
           "id": 2,
           "stopID": 6,
-          "arrivalTime": "06.05PM",
-          "departureTime": "06.05PM"
+          "arrivalTime": "06:05PM",
+          "departureTime": "06:05PM"
         }
       ]
     },
