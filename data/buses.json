@@ -510,28 +510,28 @@
       "busName": "Private 1",
       "from": "Puthanvelikkara",
       "to": "Kodungallur",
-      "startTime": "07:00AM",
-      "endTime": "07:20AM",
+      "startTime": "07:20AM",
+      "endTime": "07:40AM",
       "busType": "Private",
       "speciality": "Ordinary",
       "stops": [
         {
           "id": 1,
           "stopID": 2,
-          "arrivalTime": "07:00AM",
-          "departureTime": "07:00AM"
+          "arrivalTime": "07:20AM",
+          "departureTime": "07:20AM"
         },
         {
           "id": 2,
           "stopID": 1,
-          "arrivalTime": "07:10AM",
-          "departureTime": "07:10AM"
+          "arrivalTime": "07:30AM",
+          "departureTime": "07:30AM"
         },
         {
           "id": 3,
           "stopID": 6,
-          "arrivalTime": "07:20AM",
-          "departureTime": "07:20AM"
+          "arrivalTime": "07:40AM",
+          "departureTime": "07:40AM"
         }
 
       ]
