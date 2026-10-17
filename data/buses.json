@@ -405,37 +405,6 @@
       "busName": "Private 1",
       "from": "Puthanvelikkara",
       "to": "Kodungallur",
-      "startTime": "06:15AM",
-      "endTime": "06:35AM",
-      "busType": "Private",
-      "speciality": "Ordinary",
-      "stops": [
-        {
-          "id": 1,
-          "stopID": 2,
-          "arrivalTime": "06:15AM",
-          "departureTime": "06:15AM"
-        },
-        {
-          "id": 2,
-          "stopID": 1,
-          "arrivalTime": "06:25AM",
-          "departureTime": "06:25AM"
-        },
-        {
-          "id": 3,
-          "stopID": 6,
-          "arrivalTime": "06:35AM",
-          "departureTime": "06:35AM"
-        }
-
-      ]
-    },
-{
-      "id": "pvkkdr_002",
-      "busName": "Private 1",
-      "from": "Puthanvelikkara",
-      "to": "Kodungallur",
       "startTime": "06:25AM",
       "endTime": "06:45AM",
       "busType": "Private",
@@ -463,12 +432,43 @@
       ]
     },
 {
+      "id": "pvkkdr_002",
+      "busName": "Private 1",
+      "from": "Puthanvelikkara",
+      "to": "Kodungallur",
+      "startTime": "06:35AM",
+      "endTime": "06:55AM",
+      "busType": "Private",
+      "speciality": "Ordinary",
+      "stops": [
+        {
+          "id": 1,
+          "stopID": 2,
+          "arrivalTime": "06:35AM",
+          "departureTime": "06:35AM"
+        },
+        {
+          "id": 2,
+          "stopID": 1,
+          "arrivalTime": "06:45AM",
+          "departureTime": "06:45AM"
+        },
+        {
+          "id": 3,
+          "stopID": 6,
+          "arrivalTime": "06:55AM",
+          "departureTime": "06:55AM"
+        }
+
+      ]
+    },
+{
       "id": "pvkgvr_001",
       "busName": "KSRTC",
       "from": "Paravur",
       "to": "Guruvayoor",
       "startTime": "06:30AM",
-      "endTime": "08:30AM",
+      "endTime": "08:40AM",
       "busType": "KSRTC",
       "speciality": "Priyadarshini",
       "stops": [
@@ -481,27 +481,27 @@
  	{
           "id": 2,
           "stopID": 2,
-          "arrivalTime": "06:50AM",
-          "departureTime": "06:50AM"
+          "arrivalTime": "07:00AM",
+          "departureTime": "07:00AM"
         },
 
         {
           "id": 3,
           "stopID": 1,
-          "arrivalTime": "07:00AM",
-          "departureTime": "07:00AM"
-        },
-        {
-          "id": 4,
-          "stopID": 6,
           "arrivalTime": "07:10AM",
           "departureTime": "07:10AM"
         },
         {
+          "id": 4,
+          "stopID": 6,
+          "arrivalTime": "07:20AM",
+          "departureTime": "07:20AM"
+        },
+        {
           "id": 5,
           "stopID": 7,
-          "arrivalTime": "08:30AM",
-          "departureTime": "08:30AM"
+          "arrivalTime": "08:40AM",
+          "departureTime": "08:40AM"
         }
       ]
     },
@@ -510,28 +510,28 @@
       "busName": "Private 1",
       "from": "Puthanvelikkara",
       "to": "Kodungallur",
-      "startTime": "07:10AM",
-      "endTime": "07:30AM",
+      "startTime": "07:00AM",
+      "endTime": "07:20AM",
       "busType": "Private",
       "speciality": "Ordinary",
       "stops": [
         {
           "id": 1,
           "stopID": 2,
-          "arrivalTime": "07:10AM",
-          "departureTime": "07:10AM"
+          "arrivalTime": "07:00AM",
+          "departureTime": "07:00AM"
         },
         {
           "id": 2,
           "stopID": 1,
-          "arrivalTime": "07:20AM",
-          "departureTime": "07:20AM"
+          "arrivalTime": "07:10AM",
+          "departureTime": "07:10AM"
         },
         {
           "id": 3,
           "stopID": 6,
-          "arrivalTime": "07:30AM",
-          "departureTime": "07:30AM"
+          "arrivalTime": "07:20AM",
+          "departureTime": "07:20AM"
         }
 
       ]
@@ -541,28 +541,28 @@
       "busName": "Private 1",
       "from": "Puthanvelikkara",
       "to": "Kodungallur",
-      "startTime": "07:25AM",
-      "endTime": "07:45AM",
+      "startTime": "07:35AM",
+      "endTime": "07:55AM",
       "busType": "Private",
       "speciality": "Ordinary",
       "stops": [
         {
           "id": 1,
           "stopID": 2,
-          "arrivalTime": "07:25AM",
-          "departureTime": "07:25AM"
-        },
-        {
-          "id": 2,
-          "stopID": 1,
           "arrivalTime": "07:35AM",
           "departureTime": "07:35AM"
         },
         {
-          "id": 3,
-          "stopID": 6,
+          "id": 2,
+          "stopID": 1,
           "arrivalTime": "07:45AM",
           "departureTime": "07:45AM"
+        },
+        {
+          "id": 3,
+          "stopID": 6,
+          "arrivalTime": "07:55AM",
+          "departureTime": "07:55AM"
         }
 
       ]
@@ -572,28 +572,28 @@
       "busName": "Private 1",
       "from": "Puthanvelikkara",
       "to": "Kodungallur",
-      "startTime": "08:10AM",
-      "endTime": "08:30AM",
+      "startTime": "08:20AM",
+      "endTime": "08:40AM",
       "busType": "Private",
       "speciality": "Ordinary",
       "stops": [
         {
           "id": 1,
           "stopID": 2,
-          "arrivalTime": "08:10AM",
-          "departureTime": "08:10AM"
-        },
-        {
-          "id": 2,
-          "stopID": 1,
           "arrivalTime": "08:20AM",
           "departureTime": "08:20AM"
         },
         {
-          "id": 3,
-          "stopID": 6,
+          "id": 2,
+          "stopID": 1,
           "arrivalTime": "08:30AM",
           "departureTime": "08:30AM"
+        },
+        {
+          "id": 3,
+          "stopID": 6,
+          "arrivalTime": "08:40AM",
+          "departureTime": "08:40AM"
         }
 
       ]
@@ -603,28 +603,28 @@
       "busName": "Private 1",
       "from": "Puthanvelikkara",
       "to": "Kodungallur",
-      "startTime": "09:20AM",
-      "endTime": "09:40AM",
+      "startTime": "09:30AM",
+      "endTime": "09:50AM",
       "busType": "Private",
       "speciality": "Ordinary",
       "stops": [
         {
           "id": 1,
           "stopID": 2,
-          "arrivalTime": "09:20AM",
-          "departureTime": "09:20AM"
-        },
-        {
-          "id": 2,
-          "stopID": 1,
           "arrivalTime": "09:30AM",
           "departureTime": "09:30AM"
         },
         {
-          "id": 3,
-          "stopID": 6,
+          "id": 2,
+          "stopID": 1,
           "arrivalTime": "09:40AM",
           "departureTime": "09:40AM"
+        },
+        {
+          "id": 3,
+          "stopID": 6,
+          "arrivalTime": "09:50AM",
+          "departureTime": "09:50AM"
         }
 
       ]
@@ -634,28 +634,28 @@
       "busName": "Private 1",
       "from": "Puthanvelikkara",
       "to": "Kodungallur",
-      "startTime": "09:40AM",
-      "endTime": "10:00AM",
+      "startTime": "09:50AM",
+      "endTime": "10:10AM",
       "busType": "Private",
       "speciality": "Ordinary",
       "stops": [
         {
           "id": 1,
           "stopID": 2,
-          "arrivalTime": "09:40AM",
-          "departureTime": "09:40AM"
-        },
-        {
-          "id": 2,
-          "stopID": 1,
           "arrivalTime": "09:50AM",
           "departureTime": "09:50AM"
         },
         {
-          "id": 3,
-          "stopID": 6,
+          "id": 2,
+          "stopID": 1,
           "arrivalTime": "10:00AM",
           "departureTime": "10:00AM"
+        },
+        {
+          "id": 3,
+          "stopID": 6,
+          "arrivalTime": "10:10AM",
+          "departureTime": "10:10AM"
         }
 
       ]
@@ -665,28 +665,28 @@
       "busName": "Private 1",
       "from": "Puthanvelikkara",
       "to": "Kodungallur",
-      "startTime": "10:10AM",
-      "endTime": "10:30AM",
+      "startTime": "10:20AM",
+      "endTime": "10:40AM",
       "busType": "Private",
       "speciality": "Ordinary",
       "stops": [
         {
           "id": 1,
           "stopID": 2,
-          "arrivalTime": "10:10AM",
-          "departureTime": "10:10AM"
-        },
-        {
-          "id": 2,
-          "stopID": 1,
           "arrivalTime": "10:20AM",
           "departureTime": "10:20AM"
         },
         {
-          "id": 3,
-          "stopID": 6,
+          "id": 2,
+          "stopID": 1,
           "arrivalTime": "10:30AM",
           "departureTime": "10:30AM"
+        },
+        {
+          "id": 3,
+          "stopID": 6,
+          "arrivalTime": "10:40AM",
+          "departureTime": "10:40AM"
         }
 
       ]
@@ -696,28 +696,28 @@
       "busName": "Private 1",
       "from": "Puthanvelikkara",
       "to": "Kodungallur",
-      "startTime": "10:30AM",
-      "endTime": "10:50AM",
+      "startTime": "10:40AM",
+      "endTime": "11:00AM",
       "busType": "Private",
       "speciality": "Ordinary",
       "stops": [
         {
           "id": 1,
           "stopID": 2,
-          "arrivalTime": "10:30AM",
-          "departureTime": "10:30AM"
-        },
-        {
-          "id": 2,
-          "stopID": 1,
           "arrivalTime": "10:40AM",
           "departureTime": "10:40AM"
         },
         {
-          "id": 3,
-          "stopID": 6,
+          "id": 2,
+          "stopID": 1,
           "arrivalTime": "10:50AM",
           "departureTime": "10:50AM"
+        },
+        {
+          "id": 3,
+          "stopID": 6,
+          "arrivalTime": "11:00AM",
+          "departureTime": "11:00AM"
         }
 
       ]
@@ -727,28 +727,28 @@
       "busName": "Private 1",
       "from": "Puthanvelikkara",
       "to": "Kodungallur",
-      "startTime": "11:10AM",
-      "endTime": "11:30AM",
+      "startTime": "11:20AM",
+      "endTime": "11:40AM",
       "busType": "Private",
       "speciality": "Ordinary",
       "stops": [
         {
           "id": 1,
           "stopID": 2,
-          "arrivalTime": "11:10AM",
-          "departureTime": "11:10AM"
-        },
-        {
-          "id": 2,
-          "stopID": 1,
           "arrivalTime": "11:20AM",
           "departureTime": "11:20AM"
         },
         {
-          "id": 3,
-          "stopID": 6,
+          "id": 2,
+          "stopID": 1,
           "arrivalTime": "11:30AM",
           "departureTime": "11:30AM"
+        },
+        {
+          "id": 3,
+          "stopID": 6,
+          "arrivalTime": "11:40AM",
+          "departureTime": "11:40AM"
         }
 
       ]
@@ -758,28 +758,28 @@
       "busName": "Private 1",
       "from": "Puthanvelikkara",
       "to": "Kodungallur",
-      "startTime": "11:50AM",
-      "endTime": "12:10PM",
+      "startTime": "12:00PM",
+      "endTime": "12:20PM",
       "busType": "Private",
       "speciality": "Ordinary",
       "stops": [
         {
           "id": 1,
           "stopID": 2,
-          "arrivalTime": "11:50AM",
-          "departureTime": "11:50AM"
-        },
-        {
-          "id": 2,
-          "stopID": 1,
           "arrivalTime": "12:00PM",
           "departureTime": "12:00PM"
         },
         {
-          "id": 3,
-          "stopID": 6,
+          "id": 2,
+          "stopID": 1,
           "arrivalTime": "12:10PM",
           "departureTime": "12:10PM"
+        },
+        {
+          "id": 3,
+          "stopID": 6,
+          "arrivalTime": "12:20PM",
+          "departureTime": "12:20PM"
         }
 
       ]
@@ -789,28 +789,28 @@
       "busName": "Private 1",
       "from": "Puthanvelikkara",
       "to": "Kodungallur",
-      "startTime": "12:40PM",
-      "endTime": "01:00PM",
+      "startTime": "12:50PM",
+      "endTime": "01:10PM",
       "busType": "Private",
       "speciality": "Ordinary",
       "stops": [
         {
           "id": 1,
           "stopID": 2,
-          "arrivalTime": "12:40PM",
-          "departureTime": "12:40PM"
-        },
-        {
-          "id": 2,
-          "stopID": 1,
           "arrivalTime": "12:50PM",
           "departureTime": "12:50PM"
         },
         {
-          "id": 3,
-          "stopID": 6,
+          "id": 2,
+          "stopID": 1,
           "arrivalTime": "01:00PM",
           "departureTime": "01:00PM"
+        },
+        {
+          "id": 3,
+          "stopID": 6,
+          "arrivalTime": "01:10PM",
+          "departureTime": "01:10PM"
         }
 
       ]
@@ -820,28 +820,28 @@
       "busName": "Private 1",
       "from": "Puthanvelikkara",
       "to": "Kodungallur",
-      "startTime": "03:10PM",
-      "endTime": "03:30PM",
+      "startTime": "03:20PM",
+      "endTime": "03:40PM",
       "busType": "Private",
       "speciality": "Ordinary",
       "stops": [
         {
           "id": 1,
           "stopID": 2,
-          "arrivalTime": "03:10PM",
-          "departureTime": "03:10PM"
-        },
-        {
-          "id": 2,
-          "stopID": 1,
           "arrivalTime": "03:20PM",
           "departureTime": "03:20PM"
         },
         {
-          "id": 3,
-          "stopID": 6,
+          "id": 2,
+          "stopID": 1,
           "arrivalTime": "03:30PM",
           "departureTime": "03:30PM"
+        },
+        {
+          "id": 3,
+          "stopID": 6,
+          "arrivalTime": "03:40PM",
+          "departureTime": "03:40PM"
         }
 
       ]
@@ -851,28 +851,28 @@
       "busName": "Private 1",
       "from": "Puthanvelikkara",
       "to": "Kodungallur",
-      "startTime": "04:10PM",
-      "endTime": "04:30PM",
+      "startTime": "04:20PM",
+      "endTime": "04:40PM",
       "busType": "Private",
       "speciality": "Ordinary",
       "stops": [
         {
           "id": 1,
           "stopID": 2,
-          "arrivalTime": "04:10PM",
-          "departureTime": "04:10PM"
-        },
-        {
-          "id": 2,
-          "stopID": 1,
           "arrivalTime": "04:20PM",
           "departureTime": "04:20PM"
         },
         {
-          "id": 3,
-          "stopID": 6,
+          "id": 2,
+          "stopID": 1,
           "arrivalTime": "04:30PM",
           "departureTime": "04:30PM"
+        },
+        {
+          "id": 3,
+          "stopID": 6,
+          "arrivalTime": "04:40PM",
+          "departureTime": "04:40PM"
         }
       ]
     },
@@ -881,28 +881,28 @@
       "busName": "Private 1",
       "from": "Puthanvelikkara",
       "to": "Kodungallur",
-      "startTime": "04:50PM",
-      "endTime": "05:10PM",
+      "startTime": "05:00PM",
+      "endTime": "05:20PM",
       "busType": "Private",
       "speciality": "Ordinary",
       "stops": [
         {
           "id": 1,
           "stopID": 2,
-          "arrivalTime": "04:50PM",
-          "departureTime": "04:50PM"
-        },
-        {
-          "id": 2,
-          "stopID": 1,
           "arrivalTime": "05:00PM",
           "departureTime": "05:00PM"
         },
         {
-          "id": 3,
-          "stopID": 6,
+          "id": 2,
+          "stopID": 1,
           "arrivalTime": "05:10PM",
           "departureTime": "05:10PM"
+        },
+        {
+          "id": 3,
+          "stopID": 6,
+          "arrivalTime": "05:20PM",
+          "departureTime": "05:20PM"
         }
       ]
     },
@@ -911,28 +911,28 @@
       "busName": "Private 1",
       "from": "Puthanvelikkara",
       "to": "Kodungallur",
-      "startTime": "05:10PM",
-      "endTime": "05:30PM",
+      "startTime": "05:20PM",
+      "endTime": "05:40PM",
       "busType": "Private",
       "speciality": "Ordinary",
       "stops": [
         {
           "id": 1,
           "stopID": 2,
-          "arrivalTime": "05:10PM",
-          "departureTime": "05:10PM"
-        },
-        {
-          "id": 2,
-          "stopID": 1,
           "arrivalTime": "05:20PM",
           "departureTime": "05:20PM"
         },
         {
-          "id": 3,
-          "stopID": 6,
+          "id": 2,
+          "stopID": 1,
           "arrivalTime": "05:30PM",
           "departureTime": "05:30PM"
+        },
+        {
+          "id": 3,
+          "stopID": 6,
+          "arrivalTime": "05:40PM",
+          "departureTime": "05:40PM"
         }
       ]
     },
@@ -941,28 +941,28 @@
       "busName": "Private 1",
       "from": "Puthanvelikkara",
       "to": "Kodungallur",
-      "startTime": "06:30PM",
-      "endTime": "06:50PM",
+      "startTime": "06:40PM",
+      "endTime": "07:00PM",
       "busType": "Private",
       "speciality": "Ordinary",
       "stops": [
         {
           "id": 1,
           "stopID": 2,
-          "arrivalTime": "06:30PM",
-          "departureTime": "06:50PM"
-        },
-        {
-          "id": 2,
-          "stopID": 1,
           "arrivalTime": "06:40PM",
           "departureTime": "06:40PM"
         },
         {
-          "id": 3,
-          "stopID": 6,
+          "id": 2,
+          "stopID": 1,
           "arrivalTime": "06:50PM",
           "departureTime": "06:50PM"
+        },
+        {
+          "id": 3,
+          "stopID": 6,
+          "arrivalTime": "07:00PM",
+          "departureTime": "07:00PM"
         }
       ]
     },
